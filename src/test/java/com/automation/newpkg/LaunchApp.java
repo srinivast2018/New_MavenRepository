@@ -14,7 +14,8 @@ public class LaunchApp {
 		System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
 		
-		driver.get("https://www.facebook.com");
+		driver.get("https://www.google.com");
+		System.out.println("Launched portal");
 		driver.manage().window().maximize();
 	}	
 	
