@@ -17,7 +17,7 @@ public class LaunchApp {
 		driver.get("https://www.google.com");
 		System.out.println("Launched portal");
 		driver.manage().window().maximize();
-		System.out.println("Its time to login");
+		System.out.println("Its time to login to the application");
 	}	
 	
 }
